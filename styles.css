@@ -1,0 +1,386 @@
+.container {
+	width: 960px;
+}
+
+
+/* Header */
+
+.header {
+	background-color: rgba(255, 255, 255, 0.95);;
+	border-bottom: 1px solid #ddd;
+
+	font-family: 'Oswald' , sans-serif;
+	font-weight: 500;
+
+	font-size: 15px;
+	padding: 15px;
+
+}
+
+.image-logo-icon {
+	width: 45px;
+	height: 45px;
+}
+
+/* Menu */
+
+.header .menu {
+	float: right;
+	list-style: none;
+	margin-top: 5px;
+}
+
+.menu > li  {
+	display: inline;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.menu a {
+  color: #898989;
+}
+
+
+
+/* Dropdown */
+
+.dropdown-menu {
+	display: none;
+	font-size: 16px;
+	margin-top: 5px;
+	min-width: 105px;
+}
+
+.dropdown-menu li a {
+	color: #898989;
+	padding: 6px 20px;
+	font-weight: 300;
+}
+
+/*Caraousel*/
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 470px;
+  border-bottom: 1px solid #ddd;
+}
+
+.slide {
+  display: none;
+  background: #fbfbfb;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.active-slide {
+    display: block;
+}
+.slide-copy {
+	width: 100%;
+  
+}
+
+.for-random {
+  text-align: center;
+}
+
+.random-head {
+  height: 30px;  
+}
+table {
+  border-collapse: collapse;
+  max-width: 100%;
+  max-height: 100%;
+}
+table td {
+  cursor: pointer;
+  width: 70px;
+}
+table tr {
+  height: 63px;
+}
+
+.slide-copy h1 {
+  color: #363636;   
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  
+  font-size: 30px;
+ 
+  margin-bottom: 0px;
+}
+
+.slide-copy h2 {
+  color: #b7b7b7;
+  
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  
+  font-size: 30px;
+  margin: 5px;
+}
+
+.slide-copy p {
+  color: #959597;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.15em;
+  line-height: 1.75em;
+  margin-bottom: 15px;
+  margin-top: 16px;
+}
+.slide-copy ul {
+  color: #959595;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.15em;
+  line-height: 1.75em;
+  margin-bottom: 15px;
+  margin-top: 16px;
+}
+
+.slide-img {
+  text-align: right;
+  padding-top: ;
+  width: 25%;
+}
+.slideBestImage {
+  padding: 9px;
+  width: 100%;
+  text-align: center;
+  margin-top: 0px;
+  padding-bottom: 0px; 
+}
+
+.img-with {
+  width: 23%;
+  cursor: pointer;
+
+
+}
+.slideBestImage img {
+  border-bottom: 3px groove #959595;
+  border-right: 3px groove #959595;
+
+}
+
+.logoAndrey {
+  float: left;
+  width: 14%;
+}
+
+.textAndrey {
+  width: 100%;
+  height: 50%;
+  text-align: center;
+}
+
+#textAndreyImg {
+  width: 40%;
+  margin: auto;
+}
+
+
+/* Slide feature and dots*/
+
+.fact {
+  display: none;
+}
+
+.active-fact {
+  display: block;
+}
+
+.slider-feature {
+  background-image: url(images/main2.jpg);
+}
+
+.slider-nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.arrow-prev {
+  margin-right: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+.arrow-next {
+  margin-left: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+.slider-dots {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.slider-dots li {
+  color: #bbbcbc;
+  display: inline;
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.slider-dots li.active-dot {
+  color: #363636;
+}
+
+/* App ling */
+
+.get-app {
+	list-style: none;
+	padding-bottom: 9px;
+	padding-left: 0px;
+	padding-top: 9px;
+}
+
+.get-app li {
+	float: left;
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+
+.get-app img {
+  height: 40px;
+}
+
+
+/*Modal window*/
+
+
+.modal-window {
+  width: 30%;
+  height: 85%;
+  margin:20px auto;
+  position: fixed;
+  overflow: auto;
+  top: 0; left: 0; bottom: 0; right: 0; 
+  border-radius: 5px;
+  border: 3px #000 solid;
+  background: #fff;
+  display: none; 
+  opacity: 0; 
+  z-index: 5; 
+  padding: 20px 10px;
+}
+.big-foto{
+  display: none;
+
+
+}
+
+.big-foto-active {
+  display: block;
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+
+
+}
+
+.modal-window .modal_close {
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  display: block;
+}
+
+
+#overlay {
+  z-index: 3; /* пoдлoжкa дoлжнa быть выше слoев элементoв сaйтa, нo ниже слoя мoдaльнoгo oкнa */
+  position: fixed; /* всегдa перекрывaет весь сaйт */
+  background-color: #000; /* чернaя */
+  opacity: 0.8; /* нo немнoгo прoзрaчнa */
+  width: 100%; 
+  height: 100%; /* рaзмерoм вo весь экрaн */
+  top: 0; 
+  left: 0; /* сверху и слевa 0, oбязaтельные свoйствa! */
+  cursor: pointer;
+  display: none; /* в oбычнoм сoстoянии её нет) */
+}
+
+
+.kill-numbers {
+  text-align: center;
+}
+
+.kill-numbers p,span {
+  font-size: 29px;
+}
+
+.back-for-srt {
+  position: fixed;
+  border-top: 1px solid #ddd; 
+  background: #fbfbfb;
+  width: 100%;
+  bottom: 0px;
+  text-align: center;
+  
+}
+/*For Minds*/
+
+
+.form-width{
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+.btn {
+  float: right;
+  margin-top: 5%;
+  clear: right;
+}
+
+.counter {
+  font-size: 15px;
+  position: relative;
+  padding-left: 25%;
+}
+
+.minds {
+  text-align: left;
+  overflow: hidden;
+}
+
+
+.bg-success {
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.posts {
+  clear: both;
+  list-style: none;
+  word-break: break-all;
+}
+
+.posts > li {
+  opacity: 0;
+  margin-left: 150px;
+}
+
+.bg-info {
+  margin-top: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  display: none;
+
+}
+
+.bg-info-active {
+  display: block;
+}
